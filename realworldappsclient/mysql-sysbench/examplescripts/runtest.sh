@@ -20,7 +20,7 @@ funcCheckLog () {
 echo "Before running this test, please be sure to launch mysql server first and configure ip and port correctly in config.sh"
 
 echo "Loading benchmark configuration"
-source config.sh
+source objects.sh
 
 #Check parameters
 if [ "$#" -ne 0 ]

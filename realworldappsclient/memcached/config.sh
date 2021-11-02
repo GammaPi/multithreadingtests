@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #==============================================================================
-# Benchmark config zone (changes not recommended)
+# Benchmark entity zone (changes not recommended)
 #==============================================================================
 
 source ../../config.sh
@@ -36,7 +36,7 @@ export MEMCACHED_SERVER_PORT=11211
 
 
 #==============================================================================
-# User config zone (Please override settings here)
+# User entity zone (Please override settings here)
 #==============================================================================
 
 

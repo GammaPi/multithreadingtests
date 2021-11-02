@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #==============================================================================
-# Benchmark config zone (changes not recommended)
+# Benchmark entity zone (changes not recommended)
 #==============================================================================
 
 export TEST_ROOT_DIR=`dirname $(realpath ${BASH_SOURCE})`
@@ -35,5 +35,5 @@ export TEST_RESULT_LOG_FOLDER="$TEST_ROOT_DIR/logs/testresult"
 export BUILD_TIMESTAMP=`date "+%Y%m%d%H%M%S"`
 
 #==============================================================================
-# User config zone (Please override settings here)
+# User entity zone (Please override settings here)
 #==============================================================================

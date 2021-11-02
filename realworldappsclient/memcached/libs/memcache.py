@@ -118,7 +118,7 @@ class Client(local):
         1. A simple hashable type (string, integer, etc.).
         2. A tuple of C{(hashvalue, key)}.  This is useful if you want to avoid
         making this module calculate a hash value.  You may prefer, for
-        example, to keep all of a given user's objects on the same memcache
+        example, to keep all of a given user's entity on the same memcache
         server, so you could use the user's unique id as the hash value.
 
     @group Setup: __init__, set_servers, forget_dead_hosts, disconnect_all, debuglog
@@ -575,7 +575,7 @@ class Client(local):
         The C{key} can optionally be an tuple, with the first element
         being the server hash value and the second being the key.
         If you want to avoid making this module calculate a hash value.
-        You may prefer, for example, to keep all of a given user's objects
+        You may prefer, for example, to keep all of a given user's entity
         on the same memcache server, so you could use the user's unique
         id as the hash value.
 
@@ -602,7 +602,7 @@ class Client(local):
         The C{key} can optionally be an tuple, with the first element
         being the server hash value and the second being the key.
         If you want to avoid making this module calculate a hash value.
-        You may prefer, for example, to keep all of a given user's objects
+        You may prefer, for example, to keep all of a given user's entity
         on the same memcache server, so you could use the user's unique
         id as the hash value.
 

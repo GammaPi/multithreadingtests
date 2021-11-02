@@ -42,7 +42,7 @@ funcCheckLog () {
 }
 
 #==============================================================================
-# Benchmark config zone (changes not recommended)
+# Benchmark entity zone (changes not recommended)
 #==============================================================================
 
 export MAKE_JOB_NUMBER=$((`grep -c ^processor /proc/cpuinfo`-1))
@@ -51,6 +51,6 @@ export MAKE_JOB_NUMBER=$((`grep -c ^processor /proc/cpuinfo`-1))
 export BENCHMARK_ROOT_DIR=`dirname $(realpath ${BASH_SOURCE})`
 
 #==============================================================================
-# User config zone (Please override settings here)
+# User entity zone (Please override settings here)
 #==============================================================================
 

@@ -34,7 +34,7 @@ concatenateArgs (){
 }
 
 #==============================================================================
-# Benchmark config zone (changes not recommended)
+# Benchmark entity zone (changes not recommended)
 #==============================================================================
 
 export APACHE_BENCHMARK_ROOT_DIR=`dirname $(realpath ${BASH_SOURCE})`
@@ -71,7 +71,7 @@ export APACHE_LISTENING_IP=127.0.0.1
 export APACHE_LISTENING_PORT=1976
 
 #==============================================================================
-# User config zone (Please override settings here)
+# User entity zone (Please override settings here)
 #==============================================================================
 
 export AFTER_TEST_SCRIPT="$APACHE_BENCHMARK_ROOT_DIR/myscripts/AfterTest_Printresult.sh"

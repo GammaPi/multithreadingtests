@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #==============================================================================
-# Benchmark config zone (changes not recommended)
+# Benchmark entity zone (changes not recommended)
 #==============================================================================
 
 export MYSQL_BENCHMARK_ROOT_DIR=`dirname $(realpath ${BASH_SOURCE})`
@@ -38,7 +38,7 @@ export MYSQL_SERVER_IP=127.0.0.1
 export MYSQL_SERVER_PORT=3306
 
 #==============================================================================
-# User config zone (Please override settings here)
+# User entity zone (Please override settings here)
 #==============================================================================
 
 

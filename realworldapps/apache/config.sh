@@ -2,7 +2,7 @@
 
 
 #==============================================================================
-# Benchmark config zone (changes not recommended)
+# Benchmark entity zone (changes not recommended)
 #==============================================================================
 
 export TEST_ROOT_DIR=`dirname $(realpath ${BASH_SOURCE})`
@@ -38,5 +38,5 @@ export APACHE_LISTENING_IP=0.0.0.0
 export APACHE_LISTENING_PORT=1976
 
 #==============================================================================
-# User config zone (Please override settings here)
+# User entity zone (Please override settings here)
 #==============================================================================
