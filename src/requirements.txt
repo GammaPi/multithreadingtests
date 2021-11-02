@@ -1,3 +1,7 @@
 urllib3
 hashlib
 glog
+tarfile
+pathlib
+tqdm
+shutil
