@@ -1,9 +1,6 @@
 [submodule "realwordapps/mysql/src"]
 	path = realworldapps/mysql/src
 	url = https://github.com/mysql/mysql-server.git
-[submodule "realwordapps/memcached/src"]
-	path = realworldapps/memcached/src
-	url = https://github.com/memcached/memcached.git
 [submodule "realwordapps/lulesh/LULESH"]
 	path = realworldapps/lulesh/LULESH
 	url = https://github.com/LLNL/LULESH.git
@@ -43,3 +40,6 @@
 [submodule "realworldapps/apache-httpd/2.4.51"]
 	path = realworldapps/apache-httpd/2.4.51
 	url = git@github.com:apache/httpd.git
+[submodule "realworldapps/memcached/1.6.12"]
+	path = realworldapps/memcached/1.6.12
+	url = https://github.com/memcached/memcached.git
