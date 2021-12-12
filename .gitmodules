@@ -40,3 +40,6 @@
 [submodule "benchmarks/pyperformance/src"]
 	path = benchmarks/pyperformance/src
 	url = https://github.com/python/pyperformance.git
+[submodule "realworldapps/apache-httpd/2.4.51"]
+	path = realworldapps/apache-httpd/2.4.51
+	url = git@github.com:apache/httpd.git
