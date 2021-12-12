@@ -1,1 +1,0 @@
-../examplescripts/mmprof/AfterTest_Printresult.sh

@@ -1,1 +1,0 @@
-../examplescripts/mmprof/AfterBuild_install.sh

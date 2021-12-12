@@ -1,6 +1,3 @@
-[submodule "realwordapps/apache/src"]
-	path = realworldapps/apache/src
-	url = https://github.com/apache/httpd.git
 [submodule "realwordapps/mysql/src"]
 	path = realworldapps/mysql/src
 	url = https://github.com/mysql/mysql-server.git
@@ -31,18 +28,12 @@
 [submodule "realworldappsclient/mysql-sysbench/src"]
 	path = realworldappsclient/mysql-sysbench/src
 	url = https://github.com/akopytov/sysbench.git
-[submodule "realworldapps/apache/libs/apr"]
-	path = realworldapps/apache/libs/apr
-	url = https://github.com/apache/apr.git
 [submodule "realworldappsclient/apache-apr/src"]
 	path = realworldappsclient/apache-apr/src
 	url = https://github.com/apache/httpd.git
 [submodule "realworldappsclient/apache-apr/libs/apr"]
 	path = realworldappsclient/apache-apr/libs/apr
 	url = https://github.com/apache/apr.git
-[submodule "realworldapps/apache/libs/apr-util"]
-	path = realworldapps/apache/libs/apr-util
-	url = https://github.com/apache/apr-util.git
 [submodule "realworldappsclient/apache-apr/libs/apr-util"]
 	path = realworldappsclient/apache-apr/libs/apr-util
 	url = https://github.com/apache/apr-util.git
